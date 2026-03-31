@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "seir-netrunner",
+  "private_key_id": "66b11e91ef72685c5c671964b2d48234761b0a71",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDg/qKouGaV0T8L\njzXgeRrKqLVzVjI3whtx9LhN9Tj/GdeuoefijrC81rCfv/C1+ZTBp774etI5k1bK\n+R/QMyaQKO/SEY342Lid/q80qkn7FX3Fyy6/CKm7xBBsW0sKBqhp/0/2LYeHS9dC\nppVRxsfOu0alUCum3sxJxr4/ZFHqLUQ5JFcu0nGfzZ9H5zJR8H5wSMPCG8oa49dU\nw3iO9pjYlBR9GycBOHKZG1iFEfvGmBvEn8QmIcPOxV+KWe6iOzq4vMSNfBjcvX32\nOyw7K7RsndBKpdIelRddYi1NITLvJPAz8ZpaDLjsyQwKti5Q0KcKST7UREFz1ZyE\nt58J1WUbAgMBAAECggEAKI6N+Jbg2xGwaR+ECTYbV7uolaVMgROKyfRggqD5CLb6\nU37Y41RwVGHozasWM19NaskXmgfdvEYsZ4MXsnp98Y+Hh1jlvB0ozkYaBAbMNifu\nF4jkIMhpfDC/+yBLuv9vPUgp/EjBvOg1YczQbsDDxKaqeeMlMzvHHGdoZNnrECiJ\nM7eI3Y/gNa/pEXoTCFgfFRiK5aXM6p+Rn9ElhsHeICUOIctP524Lst9SuppYCmbM\nbku+hBQMT89V9plekx6NZxNn/nxtwDGg3IBmjkU73rHJkQi1fqHzGwGvcAwHco7Q\nnen0G4HaGxNVoN3zUAgm0+TUodqx9IOcgu8JswIXNQKBgQDyxFnWoL/tt916fpxQ\nUf0qft+2huXTqv3H9SEvsO2ThzrIp3c+lbeiTp7Q/o9yGxlzS+plxTYATZDh/tG4\ngblQa8mF+G7KhShczFuxnGArd+bHDrTQ/kY4ULVlVKMjqrZdHGjdenGVLX6NkFa1\n37Vbvk7x54UwyusMFOvLA0MX/wKBgQDtQkie2QNiNSVnQEImSLyy+P4AXa8FelKD\nftJ7faYZZRYc47SUKUfGbAgEjYTERXxzjRBSfxLTk4CUQbot0RVvIrrmj37JjkfR\n96AHEk0m21jBKcaguudpt7M35xTJSufWOJRdBDq6EEjMo0YJZMbvdTOjme1H3uqx\nlIangN8S5QKBgC/GJivPjJWaZlJx0g8YY2rWdu3zlAzYjIKqIbLB7a7noNDV6+h8\nDBw7vpNAVThOTu7alLEcYykiGo3u2JSnqrFB1PGxVxQxqiTA7paAQIitWtP3d+vc\n7jKs51Wel1Awixy9t4FGVE3YGxx+uCGoeYcpZ13Bgvt8I09IWrKj3LM/AoGAG2E5\n1jL/A/dUIK02tQpR1GmNjmdBSmWKXihli+C9KVMUETNp5Gs7IDfZWQUn3CqUqRUP\nXCXT+1ybSwCmxqDJU3DzlqXaoNHtkdp8ujQveRt5C5mRlXzcNcQAR6RALtaZGIyg\n+ncBe/VjIVJ6Q51Ao+OnmOqrik68UM/uFih2Fc0CgYEAvye/75WeoaiTN19LV/q/\nMjiO0fRRZaLEXxHFsPE/PfGK8muVGifvloY1sIVc54p7uIGHIIJGhjvqdJexvhbM\nPyfUZwmlkxZwuQ9IjrM/qyXacaH6HzDgUTOFv/SqJkqVn2FbfwV5tjKfuQSx0fKv\ndhljdyio4H+6qOuxCV6iVbo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform-service@seir-netrunner.iam.gserviceaccount.com",
+  "client_id": "111051643288836977460",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-service%40seir-netrunner.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

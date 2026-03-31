@@ -1,6 +1,7 @@
-# ☁️ GCP Notes week by week 📝
+# ☁️ GCP Class 7.5 Homework week by week 📝
 
 ## Week 1
+
 <details>
     <summary>Instructions</summary>
 
@@ -10,62 +11,71 @@ If you use GCP CLI then: gcloud init
 You need to select default Region and project.
 
 Show your work:
-1) Browser proof
-        Open: http://<EXTERNAL_IP>/
 
-2) at the end of the lesson, SSH into your VM and curl it
+1. Browser proof
+   Open: http://<EXTERNAL_IP>/
+
+2. at the end of the lesson, SSH into your VM and curl it
+
 ```bash
 curl localhost
 ```
+
 ```bash
 curl -s localhost | head
 ```
 
-3) Service Proof
-> systemctl status nginx --no-pager
+3. Service Proof
+    > systemctl status nginx --no-pager
 
 ✨ Bonus: For the fearless who want some head.
 
 If you want the page to refresh every 10 seconds (extra dopamine):
 
 Add this inside <head>:
-    <meta http-equiv="refresh" content="10">
+<meta http-equiv="refresh" content="10">
 
 > If you use supera.sh then....
 
-1) Machine proof
+1. Machine proof
+
 ```bash
 curl -s localhost/healthz
 ```
 
-2) Engineer proof
+2. Engineer proof
+
 ```bash
 curl -s localhost/metadata | jq .
 ```
 
-### SEIR-I Lab 1 Gate Philosophy 
+### SEIR-I Lab 1 Gate Philosophy
 
 Real engineers never say: --> “It works on my screen.”
 
 They prove:
-            The service is reachable
-            The health endpoint works
-            The metadata endpoint returns valid JSON
-            The deployed infrastructure identifies itself
+The service is reachable
+The health endpoint works
+The metadata endpoint returns valid JSON
+The deployed infrastructure identifies itself
 
 So the gate script checks exactly those things.
 
 Lab 1 Gate Script
 Find it here: --> https://github.com/BalericaAI/SEIR-1/blob/main/weekly_lessons/weeka/script/gate_gcp_vm_http_ok.sh
-> NOTE!!!! You need to find the IP and change it! 
+
+> NOTE!!!! You need to find the IP and change it!
 
 Run it like this!
+
 ```bash
 VM_IP=34.82.55.21 ./gate_gcp_vm_http_ok.sh
 ```
-Remember, 34.82.55.21 is an example!! That's not your IP!  You have to find your own IP!  Don't ask the teach about this!!
+
+Remember, 34.82.55.21 is an example!! That's not your IP! You have to find your own IP! Don't ask the teach about this!!
 
 Example output:
+
 ```json
 Lab 1 Gate Result: PASS
 
@@ -77,23 +87,25 @@ PASS: metadata contains region
 ```
 
 Files created:
-                gate_result.json
-                badge.txt
+gate_result.json
+badge.txt
 
 Example gate_result.json
+
 ```json
 {
     "lab": "SEIR-I Lab 1",
     "target": "34.82.55.21",
     "status": "PASS",
     "details": [
-    "PASS: Homepage reachable (HTTP 200)",
-    "PASS: /healthz endpoint returned 'ok'",
-    "PASS: /metadata returned valid JSON"
+        "PASS: Homepage reachable (HTTP 200)",
+        "PASS: /healthz endpoint returned 'ok'",
+        "PASS: /metadata returned valid JSON"
     ],
     "failures": []
 }
 ```
+
 </details>
 
 ---
