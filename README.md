@@ -1,7 +1,6 @@
 # ☁️ GCP Notes week by week 📝
 
 ## Week 1
-
 <details>
     <summary>Instructions</summary>
 
@@ -13,7 +12,6 @@ You need to select default Region and project.
 Show your work:
 1) Browser proof
         Open: http://<EXTERNAL_IP>/
-
 
 2) at the end of the lesson, SSH into your VM and curl it
 ```bash
@@ -34,7 +32,6 @@ Add this inside <head>:
     <meta http-equiv="refresh" content="10">
 
 > If you use supera.sh then....
-
 
 1) Machine proof
 ```bash
@@ -68,7 +65,6 @@ VM_IP=34.82.55.21 ./gate_gcp_vm_http_ok.sh
 ```
 Remember, 34.82.55.21 is an example!! That's not your IP!  You have to find your own IP!  Don't ask the teach about this!!
 
-
 Example output:
 ```json
 Lab 1 Gate Result: PASS
@@ -99,4 +95,5 @@ Example gate_result.json
 }
 ```
 </details>
+
 ---
