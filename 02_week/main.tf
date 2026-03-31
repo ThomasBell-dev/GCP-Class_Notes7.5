@@ -99,3 +99,12 @@ module "ops_agent_policy" {
     }]
   }
 }
+
+# Automation outputs
+output "vm_external_ip" {
+  value = google_compute_instance.week2-homework.network_interface[0].access_config[0].nat_ip
+}
+
+output "vm_url" {
+  value = "http://${google_compute_instance.week2-homework.network_interface[0].access_config[0].nat_ip}"
+}

@@ -21,7 +21,7 @@ variable "student_name" {
   default = "Thomas Bell"
 }
 
-variable "week2_lab" {
+variable "vm_name" {
   type    = string
   default = "week2_lab"
 }
