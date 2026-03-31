@@ -48,7 +48,7 @@ curl -s localhost/metadata | jq .
 
 ### SEIR-I Lab 1 Gate Philosophy 
 
-Real engineers never say: --> *“It works on my screen.”*
+Real engineers never say: --> “It works on my screen.”
 
 They prove:
             The service is reachable
@@ -59,8 +59,8 @@ They prove:
 So the gate script checks exactly those things.
 
 Lab 1 Gate Script
-Find it here: --> hhttps://github.com/BalericaAI/SEIR-1/blob/main/weekly_lessons/weeka/script/gate_gcp_vm_http_ok.sh
-#NOTE!!!! You need to find the IP and change it! 
+Find it here: --> https://github.com/BalericaAI/SEIR-1/blob/main/weekly_lessons/weeka/script/gate_gcp_vm_http_ok.sh
+> NOTE!!!! You need to find the IP and change it! 
 
 Run it like this!
 ```bash
@@ -70,13 +70,15 @@ Remember, 34.82.55.21 is an example!! That's not your IP!  You have to find your
 
 
 Example output:
-                Lab 1 Gate Result: PASS
-                
-                PASS: Homepage reachable (HTTP 200)
-                PASS: /healthz endpoint returned 'ok'
-                PASS: /metadata returned valid JSON
-                PASS: metadata contains instance_name
-                PASS: metadata contains region
+```json
+Lab 1 Gate Result: PASS
+
+PASS: Homepage reachable (HTTP 200)
+PASS: /healthz endpoint returned 'ok'
+PASS: /metadata returned valid JSON
+PASS: metadata contains instance_name
+PASS: metadata contains region
+```
 
 Files created:
                 gate_result.json
