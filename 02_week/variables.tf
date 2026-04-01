@@ -1,6 +1,7 @@
 variable "project_id" {
-  description = "seir-netrunner"
+  description = "project ID"
   type        = string
+  default = "seir-netrunner"
 }
 
 variable "region" {
