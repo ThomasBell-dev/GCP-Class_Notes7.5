@@ -3,7 +3,7 @@
 ## Week 1
 
 <details>
-    <summary>Instructions</summary>
+    <summary>Wk1 Instructions</summary>
 
 Follow the instructor's guidance for how to make a homepage with a VM.
 
@@ -33,6 +33,7 @@ curl -s localhost | head
 If you want the page to refresh every 10 seconds (extra dopamine):
 
 Add this inside <head>:
+
 <meta http-equiv="refresh" content="10">
 
 > If you use supera.sh then....
@@ -104,6 +105,71 @@ Example gate_result.json
     ],
     "failures": []
 }
+```
+
+</details>
+
+---
+
+### Week 2
+
+<details>
+<summary>Wk2 Instructions</summary>
+
+SEIR-I Lab 2 (GCP Terraform) — Iowa VM + Startup Script + Port 80
+
+**Goal:**
+
+Students will deploy the Lab 1 VM stack via Terraform:
+
+- Compute Engine VM
+- Firewall rule to allow HTTP (port 80)
+- Startup script installs nginx + serves the ops panel (/, /healthz, /metadata)
+- Region/zone in Iowa (us-central1-a by default)
+
+Workforce relevance
+
+This is the real transition from “click ops” to “cloud engineer”:
+
+- reproducible deployments
+- version-controlled infrastructure
+- predictable changes
+- reviewable diff
+
+1. Follow instructions for adding terraform files to a folder.
+2. Add security .json file to the folder.
+3. From the command line, do the following:
+
+```bash
+terraform init
+```
+
+```bash
+terraform validate
+```
+
+```bash
+terraform plan -out tfplan
+```
+
+```bash
+terraform apply tfplan
+```
+
+```bash
+terraform output vm_url
+```
+
+> Find the URL and open it in your browser.
+
+All GAtes:
+Find it, Run it: --> https://github.com/BalericaAI/SEIR-1/blob/main/weekly_lessons/weekb/python/gate_lab2_http.sh
+
+CLI
+
+```bash
+VM_IP=$(terraform output -raw vm_external_ip)
+VM_IP="$VM_IP" ./gate_lab2_http.sh
 ```
 
 </details>
