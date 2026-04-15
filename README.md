@@ -1,9 +1,9 @@
 # ☁️ GCP Class 7.5 Homework week by week 📝
 
-## Week 1
+## Week 2
 
 <details>
-    <summary>Wk1 Instructions</summary>
+    <summary>Wk2 Instructions</summary>
 
 Follow the instructor's guidance for how to make a homepage with a VM.
 
@@ -111,10 +111,10 @@ Example gate_result.json
 
 ---
 
-### Week 2
+### Week 3
 
 <details>
-<summary>Wk2 Instructions</summary>
+<summary>Wk3 Instructions</summary>
 
 SEIR-I Lab 2 (GCP Terraform) — Iowa VM + Startup Script + Port 80
 
